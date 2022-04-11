@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Josephine Vouk Photography</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="./images/dragonfly-logo-w.png", style="display: none;"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="gallery.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact & Pricing</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="front">
+                <a href="index.html"><img src="./images/dragonfly-logo-w.png"></a>
+                <h1>W E L C O M E</h1>
+                <a href="gallery.html" class="stream-btn">Portfolio</a>
+            </div>
+
+        </section>
+
+        <!---footer-->
+
+        <section class="footer">
+            <div class="icons">
+                <a href="https://www.instagram.com/josephinevouk/"><i class="fa fa-instagram"></i></a>
+                <a href="mailto: jmvouk@gmail.com"><i class="fa fa-envelope"></i></a>
+            </div>
+        
+        </section>
+
+    </body>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</html>

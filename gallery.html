@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Josephine Vouk Photography</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <section class="gallery-header">
+            <nav>
+                <a href="index.html"><img class="gal-img" src="./images/dragonfly-logo-b.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact & Pricing</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+
+        <div class="gal-row">
+            <div class="gal-column">
+              <img src="images/emme.jpg">
+              <img src="images/butler.jpg">
+              <img src="images/claudia.jpg">
+              <img src="images/amreeen.jpg">
+              <img src="images/another ingrid.jpg">
+              <img src="images/flowy.jpg">
+              <img src="images/hugs.jpg">
+              <img src="images/hialey .jpg">
+            </div>
+            <div class="gal-column">
+                <img src="images/friendship.jpg">
+              <img src="images/fam fam .jpg">
+              <img src="images/baby girl .jpg">
+              <img src="images/sydney.jpg">
+              <img src="images/wicker.jpg">
+              <img src="images/wavy .jpg">
+              <img src="images/abigal.jpg">
+              <img src="images/her frien.jpg">
+              <img src="images/cool marin .jpg">
+            </div>
+            <div class="gal-column">
+              <img src="images/eliseb1.jpg">
+              <img src="images/grace d.jpg">
+              <img src="images/groovy.jpg">
+              <img src="images/windy.jpg">
+              <img src="images/clauud.jpg">
+              <img src="images/sydney 2.jpg">
+              <img src="images/grassy amreen.jpg">
+              <img src="images/walking.jpg">
+            </div>
+          </div>
+
+        <!---footer-->
+
+        <section class="footer">
+            <div class="icons">
+                <a href="https://www.instagram.com/josephinevouk/"><i class="fa fa-instagram"></i></a>
+                <a href="mailto: jmvouk@gmail.com"><i class="fa fa-envelope"></i></a>
+            </div>
+        
+        </section>
+
+    </body>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</html>
